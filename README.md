@@ -44,6 +44,28 @@ gh workflow run monitor.yml -f mode=dry-run
 gh run watch
 ```
 
+## Schedule (cron-job.org)
+
+GitHub's own scheduler only ran this about every 4 hours, so a free [cron-job.org](https://cron-job.org)
+job starts the workflow every 20 minutes through GitHub's API. The hourly GitHub schedule in the
+workflow is only a fallback.
+
+The cron-job.org job sends this request:
+
+| Field | Value |
+|---|---|
+| URL | `https://api.github.com/repos/caleblanc/receiver-monitor/actions/workflows/monitor.yml/dispatches` |
+| Method | `POST` |
+| Header | `Authorization: Bearer <fine-grained token>` |
+| Header | `Accept: application/vnd.github+json` |
+| Header | `X-GitHub-Api-Version: 2022-11-28` |
+| Header | `Content-Type: application/json` |
+| Body | `{"ref":"main","inputs":{"mode":"check"}}` |
+
+A successful call returns **204 No Content**. The token is a fine-grained personal access token
+limited to this repository with **Actions: Read and write** and nothing else. When it expires,
+cron-job.org starts failing with 401: make a new token and paste it into the job's header.
+
 ## Files
 
 - `monitor.py`: everything (standard library only, nothing to install)

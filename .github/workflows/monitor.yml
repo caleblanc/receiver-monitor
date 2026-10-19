@@ -1,9 +1,11 @@
 name: receiver-monitor
 
 on:
+  # The real 20-minute cadence comes from cron-job.org calling the workflow_dispatch API
+  # (GitHub's own scheduler only managed about one run every 4 hours). This hourly schedule is
+  # just a fallback that keeps checks going if the external trigger or its token stops working.
   schedule:
-    # Every 20 minutes, off the top of the hour (GitHub delays busy slots; runs can still be 5-15 min late).
-    - cron: "7,27,47 * * * *"
+    - cron: "13 * * * *"
   workflow_dispatch:
     inputs:
       mode:
