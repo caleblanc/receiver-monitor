@@ -8,7 +8,10 @@
    "failures": 0
   },
   "mtc": {
-   "failures": 0
+   "failures": 1,
+   "last_error": "Network error for https://mtcfactoryoutlet.com/wp-json/wc/store/v1/products?per_page=100&page=1: <urlopen error [Errno 111] Connection refused>",
+   "last_error_at": "2026-10-20T20:33:14+00:00",
+   "skip_until": null
   },
   "skadi": {
    "failures": 0
