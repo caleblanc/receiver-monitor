@@ -8,11 +8,7 @@
    "failures": 0
   },
   "mtc": {
-   "broken_alerted": true,
-   "failures": 5,
-   "last_error": "Network error for https://mtcfactoryoutlet.com/wp-json/wc/store/v1/products?per_page=100&page=1: The read operation timed out",
-   "last_error_at": "2026-10-21T23:47:07+00:00",
-   "skip_until": "2026-10-22T02:07:07+00:00"
+   "failures": 0
   },
   "skadi": {
    "failures": 0
