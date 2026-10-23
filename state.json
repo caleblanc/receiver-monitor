@@ -2,10 +2,11 @@
  "listings": {
   "bestbuy:14575638": {
    "alerted_at": "2026-10-22T17:27:08+00:00",
-   "available": true,
+   "available": false,
    "model": "STR-DH590",
    "price": 284.95,
-   "title": "Open Box - Sony STR-DH590 5.2 Channel 4K Ultra HD Home Theatre AV Receiver"
+   "title": "Open Box - Sony STR-DH590 5.2 Channel 4K Ultra HD Home Theatre AV Receiver",
+   "unavailable_since": "2026-10-23T05:47:08+00:00"
   }
  },
  "meta": {
@@ -17,10 +18,10 @@
   },
   "mtc": {
    "broken_alerted": true,
-   "failures": 6,
-   "last_error": "HTTP 500 from https://mtcfactoryoutlet.com/wp-json/wc/store/v1/products?per_page=100&page=1",
-   "last_error_at": "2026-10-23T03:07:08+00:00",
-   "skip_until": "2026-10-23T05:27:08+00:00"
+   "failures": 7,
+   "last_error": "HTTP 403 from https://mtcfactoryoutlet.com/wp-json/wc/store/v1/products?per_page=100&page=1",
+   "last_error_at": "2026-10-23T05:47:08+00:00",
+   "skip_until": "2026-10-23T08:07:08+00:00"
   },
   "skadi": {
    "failures": 0
