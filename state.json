@@ -17,10 +17,10 @@
   },
   "mtc": {
    "broken_alerted": true,
-   "failures": 8,
+   "failures": 9,
    "last_error": "HTTP 500 from https://mtcfactoryoutlet.com/wp-json/wc/store/v1/products?per_page=100&page=1",
-   "last_error_at": "2026-10-23T08:07:11+00:00",
-   "skip_until": "2026-10-23T10:27:11+00:00"
+   "last_error_at": "2026-10-23T10:47:10+00:00",
+   "skip_until": "2026-10-23T13:07:10+00:00"
   },
   "skadi": {
    "failures": 0
