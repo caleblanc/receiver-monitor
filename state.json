@@ -17,10 +17,7 @@
    "failures": 0
   },
   "mtc": {
-   "failures": 1,
-   "last_error": "Network error for https://mtcfactoryoutlet.com/wp-json/wc/store/v1/products?per_page=100&page=1: <urlopen error _ssl.c:993: The handshake operation timed out>",
-   "last_error_at": "2026-10-28T05:47:09+00:00",
-   "skip_until": null
+   "failures": 0
   },
   "skadi": {
    "failures": 0
