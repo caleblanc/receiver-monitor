@@ -10,10 +10,11 @@
   },
   "bestbuy:17110213": {
    "alerted_at": "2026-10-29T16:27:08+00:00",
-   "available": true,
+   "available": false,
    "model": "STR-DH790",
    "price": 269.97,
-   "title": "Refurbished (Excellent) - Sony STRDH790 7.2 Channel Dolby Atmos AV Receiver"
+   "title": "Refurbished (Excellent) - Sony STRDH790 7.2 Channel Dolby Atmos AV Receiver",
+   "unavailable_since": "2026-10-29T21:27:08+00:00"
   },
   "bestbuy:17931030": {
    "alerted_at": "2026-10-29T16:27:08+00:00",
