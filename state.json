@@ -18,10 +18,11 @@
   },
   "bestbuy:17931030": {
    "alerted_at": "2026-10-29T16:27:08+00:00",
-   "available": true,
+   "available": false,
    "model": "STR-DH590",
    "price": 239.95,
-   "title": "Refurbished(Fair) - Sony STR-DH590 5.2 Channel 4K Ultra HD Home Theatre AV Receiver"
+   "title": "Refurbished(Fair) - Sony STR-DH590 5.2 Channel 4K Ultra HD Home Theatre AV Receiver",
+   "unavailable_since": "2026-10-30T00:27:08+00:00"
   }
  },
  "meta": {
