@@ -41,10 +41,7 @@
    "failures": 0
   },
   "mtc": {
-   "failures": 1,
-   "last_error": "HTTP 403 from https://mtcfactoryoutlet.com/wp-json/wc/store/v1/products?per_page=100&page=1",
-   "last_error_at": "2026-10-31T00:27:09+00:00",
-   "skip_until": null
+   "failures": 0
   },
   "skadi": {
    "failures": 0
