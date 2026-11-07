@@ -18,10 +18,11 @@
   },
   "bestbuy:15199024": {
    "alerted_at": "2026-11-05T17:27:10+00:00",
-   "available": true,
+   "available": false,
    "model": "TX-SR494",
    "price": 359.97,
-   "title": "Onkyo TX-SR494 7.2 Channel 4K Ultra HD AV Receiver - Open Box"
+   "title": "Onkyo TX-SR494 7.2 Channel 4K Ultra HD AV Receiver - Open Box",
+   "unavailable_since": "2026-11-07T16:47:07+00:00"
   },
   "bestbuy:17110213": {
    "alerted_at": "2026-10-29T16:27:08+00:00",
