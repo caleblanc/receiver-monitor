@@ -25,12 +25,11 @@
    "unavailable_since": "2026-11-10T23:27:08+00:00"
   },
   "bestbuy:17110213": {
-   "alerted_at": "2026-10-29T16:27:08+00:00",
-   "available": false,
+   "alerted_at": "2026-11-19T18:27:09+00:00",
+   "available": true,
    "model": "STR-DH790",
-   "price": 269.97,
-   "title": "Refurbished (Excellent) - Sony STRDH790 7.2 Channel Dolby Atmos AV Receiver",
-   "unavailable_since": "2026-10-29T21:27:08+00:00"
+   "price": 268.97,
+   "title": "Refurbished (Excellent) - Sony STRDH790 7.2 Channel Dolby Atmos AV Receiver"
   },
   "bestbuy:17931030": {
    "alerted_at": "2026-10-29T16:27:08+00:00",
@@ -49,10 +48,7 @@
    "failures": 0
   },
   "mtc": {
-   "failures": 2,
-   "last_error": "HTTP 403 from https://mtcfactoryoutlet.com/wp-json/wc/store/v1/products?per_page=100&page=1",
-   "last_error_at": "2026-11-19T18:07:08+00:00",
-   "skip_until": "2026-11-19T18:27:08+00:00"
+   "failures": 0
   },
   "skadi": {
    "failures": 0
