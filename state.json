@@ -10,10 +10,11 @@
   },
   "bestbuy:14542511": {
    "alerted_at": "2026-11-26T17:27:08+00:00",
-   "available": true,
+   "available": false,
    "model": "STR-DH790",
    "price": 283.97,
-   "title": "Open Box - Sony STRDH790 7.2 Channel Dolby Atmos AV Receiver"
+   "title": "Open Box - Sony STRDH790 7.2 Channel Dolby Atmos AV Receiver",
+   "unavailable_since": "2026-11-27T15:07:08+00:00"
   },
   "bestbuy:14575638": {
    "alerted_at": "2026-10-27T17:07:09+00:00",
